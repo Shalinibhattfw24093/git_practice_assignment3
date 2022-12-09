@@ -1,22 +1,13 @@
 
-function prime(num){
-	let count=0;
-	for(let i=0; i<num.length; i++){
-	if(num%i==0){
-	count++;
-	}
-	}
-	if(count==2){
-	return true
-	}
-	else{
-	return false
-	}
-	}
-let x=prime(13);
-if(prime==true){
-console.log("It is a Prime number")
+let Number=13
+let count=0;
+for(let i=0; i<=Number; i++){
+if(num%i==0){
+count++;
 }
-else{
-console.log("It is not a Prime number")
+if(count==2){
+console.log("It is a Prime no.")
+}else{
+console.log("It is not a Prime no.")
+
 }
